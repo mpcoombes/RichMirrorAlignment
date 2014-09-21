@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?><!DOCTYPE DDDB SYSTEM "../../../DTD/structure.dtd"><DDDB>
+<!--
+  The Rich mirrors are made as spherical segments with the centre of
+  the mirror around the local x axis. Rotation should be done around the
+  centre of the mirror, which is at x=radius.
+  The current radius is 2710*mm and is included in the pivot point.
+  As the mirors have their local centre around x=radius, in order to change
+  the CoC in y (global) a rotation around the local z is required.
+  -->
+<!-- Spherical mirrors -->
+  <condition classID="6" name="SphMirror0_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad   -1.39316*mrad    1.02616*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">2710.0*mm 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SphMirror1_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad   -1.33593*mrad    2.61305*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">2710.0*mm 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SphMirror2_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad    0.35992*mrad   -0.74771*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">2710.0*mm 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SphMirror3_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad    0.58536*mrad   -2.01320*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">2710.0*mm 0*mm 0*mm</paramVector>
+  </condition>
+<!-- Secondary (flat) mirrors -->
+<!--
+  The secondary flat mirrors are also spherical with a radius of 1.0e6*mm.
+  The same considaration apply as for the spherical mirrors.
+  -->
+  <condition classID="6" name="SecMirrorMasterTop_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">0*mrad 0*mrad 0*mrad</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirrorMasterBot_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">0*mrad 0*mrad 0*mrad</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror0_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad   -0.55342*mrad    0.03974*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">778.3*m 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror1_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad    0.87877*mrad    0.25765*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">1813.3*m 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror2_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad   -0.47552*mrad   -0.40135*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">1564.9*m 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror3_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad    0.11394*mrad    0.25194*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">1722.2*m 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror4_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad   -0.44759*mrad    0.04960*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">1564.9*m 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror5_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad    0.32438*mrad    0.19833*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">712.7*m 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror6_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad    0.30207*mrad    0.14842*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">632.6*m 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror7_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad    0.38979*mrad    0.02117*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">1639.8*m 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror8_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad   -1.18522*mrad    0.21928*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">1185.1*m 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror9_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad   -0.47680*mrad    0.03227*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">857.0*m 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror10_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad   -1.10521*mrad   -0.51700*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">1722.2*m 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror11_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad   -0.86902*mrad   -1.42746*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">953.1*m 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror12_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad    0.00223*mrad   -0.00252*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">2654.1*m 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror13_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad    0.61357*mrad    0.10437*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">1040.5*m 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror14_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad    0.66423*mrad   -0.80491*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">1433.8*m 0*mm 0*mm</paramVector>
+  </condition>
+  <condition classID="6" name="SecMirror15_Align">
+    <paramVector name="dPosXYZ" type="double">0*mm 0*mm 0*mm</paramVector>
+    <paramVector name="dRotXYZ" type="double">   0.00000*mrad    0.60029*mrad    1.62303*mrad</paramVector>
+    <paramVector name="pivotXYZ" type="double">632.6*m 0*mm 0*mm</paramVector>
+  </condition>
+</DDDB>
